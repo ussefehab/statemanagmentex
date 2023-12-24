@@ -17,7 +17,7 @@ class CheckOut extends StatelessWidget {
             itemBuilder: (context, i) {
               return Card(
                 child: ListTile(
-                  title: Text(cart.basketItem[i].name),
+                  title: Text(cart.basketItem[i].name), 
                   trailing: IconButton(
                       onPressed: () {
                         cart.remove(cart.basketItem[i]);

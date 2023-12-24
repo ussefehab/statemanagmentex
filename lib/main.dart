@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:statemt/home_page.dart';
+import 'package:statemt/view/home_page.dart';
 import 'package:statemt/model/cart.dart';
 
 void main() {
